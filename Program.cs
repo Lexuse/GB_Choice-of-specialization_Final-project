@@ -8,3 +8,20 @@ PrintArray(array2);
 
 
 
+
+//###########################################################
+string[] GenerateArray()
+{
+    string[] arr = new String[20] { "box", "seven", "-3", "step", "apple", "arc", "78", "3p", "ele", "orks", "bamb", "32", "-z", "porit", "rabbit", "cha", "stock", "2112", "-tjooos", "zoo" };
+    return arr;
+}
+
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
