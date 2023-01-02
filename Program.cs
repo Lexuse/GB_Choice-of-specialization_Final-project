@@ -25,3 +25,20 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+
+void CutArrayTo3(string[] arr, string[] arr2)
+{
+    int j = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+
+        if (arr[i].Length <= 3)
+        {
+            array2[j] = array[i];
+            j++;
+        }
+    }
+
+}
+
